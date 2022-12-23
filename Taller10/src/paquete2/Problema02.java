@@ -28,7 +28,7 @@ public class Problema02 {
         String reporte = "";
         
         for (int i = 0; i < ventas.length; i++) { 
-            
+            System.out.printf("Ventas de: %s\n", vendedores[i]);
             for (int j = 0; j < ventas[i].length; j++) { 
                 System.out.print("Ingrese el valor de su venta\n");
                 ventas[i][j] = entrada.nextDouble(); 
